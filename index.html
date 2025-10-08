@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quant Plus | Enterprise Security Solutions</title>
+    <meta name="description" content="Enterprise-grade cybersecurity solutions: IoT Defender blockchain security, Quant Plus autonomous defense platform, and modular encryption integration.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Neural Network Background -->
+    <canvas id="neuralCanvas"></canvas>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span>QUANT PLUS</span>
+            </div>
+            <nav class="nav" id="mainNav">
+                <a href="#products">Products</a>
+                <a href="#features">Features</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="cta-header">Get Started</a>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="#products" class="mobile-nav-link">Products</a>
+        <a href="#features" class="mobile-nav-link">Features</a>
+        <a href="#solutions" class="mobile-nav-link">Solutions</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+        <a href="#contact" class="mobile-nav-link cta-mobile">Get Started</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Next-Generation Cybersecurity for the Quantum Era</h1>
+            <p class="hero-subtitle">Protect your enterprise with blockchain-powered IoT security, autonomous AI defense, and hybrid post-quantum encryption</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Explore Solutions</a>
+                <a href="#contact" class="btn btn-secondary">Schedule Demo</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">99.7%</div>
+                    <div class="stat-label">Threat Detection</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">0.3s</div>
+                    <div class="stat-label">Response Time</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">10+</div>
+                    <div class="stat-label">AI Agents</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">24/7</div>
+                    <div class="stat-label">Autonomous</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-header">
+            <h2 class="section-title">Our Security Solutions</h2>
+            <p class="section-subtitle">Three powerful products designed to protect your enterprise at every level</p>
+        </div>
+
+        <div class="products-grid">
+            <!-- IoT Defender -->
+            <div class="product-card" data-product="iot">
+                <div class="product-icon">🔗</div>
+                <h3 class="product-title">IoT Defender</h3>
+                <p class="product-tagline">Blockchain-Based IoT Security</p>
+                <p class="product-description">
+                    Secure your IoT ecosystem with blockchain technology. Built for ARM64 architecture, IoT Defender enables devices to securely transact and store data on an immutable distributed ledger.
+                </p>
+                <ul class="product-features">
+                    <li><span class="feature-icon">✓</span> Blockchain-secured IoT network</li>
+                    <li><span class="feature-icon">✓</span> ARM64 architecture optimized</li>
+                    <li><span class="feature-icon">✓</span> Secure device transactions</li>
+                    <li><span class="feature-icon">✓</span> Immutable data storage</li>
+                    <li><span class="feature-icon">✓</span> Zero-trust architecture</li>
+                </ul>
+                <button class="product-btn" onclick="openProductDetails('iot')">Learn More</button>
+            </div>
+
+            <!-- Quant Plus Full System -->
+            <div class="product-card featured" data-product="full">
+                <div class="featured-badge">Most Popular</div>
+                <div class="product-icon">🤖</div>
+                <h3 class="product-title">Quant Plus Full System</h3>
+                <p class="product-tagline">Autonomous AI Defense Platform</p>
+                <p class="product-description">
+                    Complete autonomous cybersecurity with 10 specialized AI agents. Self-operating defense with hybrid post-quantum encryption, VPN monitoring, and real-time threat response.
+                </p>
+                <ul class="product-features">
+                    <li><span class="feature-icon">✓</span> 10 specialized AI sub-agents</li>
+                    <li><span class="feature-icon">✓</span> Autonomous threat detection</li>
+                    <li><span class="feature-icon">✓</span> Hybrid post-quantum encryption</li>
+                    <li><span class="feature-icon">✓</span> VPN security monitoring</li>
+                    <li><span class="feature-icon">✓</span> Manual override capability</li>
+                </ul>
+                <button class="product-btn" onclick="openProductDetails('full')">Learn More</button>
+            </div>
+
+            <!-- Quant Plus Module -->
+            <div class="product-card" data-product="module">
+                <div class="product-icon">🔐</div>
+                <h3 class="product-title">Quant Plus Module</h3>
+                <p class="product-tagline">Plug-and-Play Encryption</p>
+                <p class="product-description">
+                    Add quantum-resistant encryption to your existing security infrastructure. Seamless integration with hybrid classical and post-quantum algorithms for immediate protection.
+                </p>
+                <ul class="product-features">
+                    <li><span class="feature-icon">✓</span> Easy workflow integration</li>
+                    <li><span class="feature-icon">✓</span> AES-256 + Kyber-1024</li>
+                    <li><span class="feature-icon">✓</span> RSA-4096 + Dilithium-3</li>
+                    <li><span class="feature-icon">✓</span> On-demand encryption</li>
+                    <li><span class="feature-icon">✓</span> Zero infrastructure changes</li>
+                </ul>
+                <button class="product-btn" onclick="openProductDetails('module')">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-header">
+            <h2 class="section-title">Why Choose Quant Plus?</h2>
+            <p class="section-subtitle">Enterprise-grade security with cutting-edge technology</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h3 class="feature-title">Autonomous Protection</h3>
+                <p class="feature-text">Self-operating AI agents provide 24/7 threat detection and response without human intervention</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔮</div>
+                <h3 class="feature-title">Quantum-Resistant</h3>
+                <p class="feature-text">Hybrid encryption combining proven classical algorithms with post-quantum cryptography</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">Lightning Fast</h3>
+                <p class="feature-text">0.3 second response time from threat detection to automated mitigation deployment</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔗</div>
+                <h3 class="feature-title">Blockchain Secured</h3>
+                <p class="feature-text">IoT Defender uses distributed ledger technology for tamper-proof device security</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3 class="feature-title">Real-Time Analytics</h3>
+                <p class="feature-text">ML-powered threat forecasting and security KPIs with 99.7% accuracy</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔄</div>
+                <h3 class="feature-title">Easy Integration</h3>
+                <p class="feature-text">Modular design allows seamless integration with existing security infrastructure</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions" id="solutions">
+        <div class="section-header">
+            <h2 class="section-title">Solutions for Every Industry</h2>
+            <p class="section-subtitle">Tailored security for your specific needs</p>
+        </div>
+
+        <div class="solutions-grid">
+            <div class="solution-card">
+                <div class="solution-icon">🏢</div>
+                <h3>Enterprise</h3>
+                <p>Comprehensive security for organizations with 500+ endpoints requiring SOC2 and ISO27001 compliance</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon">🏭</div>
+                <h3>Industrial IoT</h3>
+                <p>Blockchain-secured networks for manufacturing, energy, and critical infrastructure protection</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon">🏥</div>
+                <h3>Healthcare</h3>
+                <p>HIPAA-compliant security with post-quantum encryption for patient data protection</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon">🏛️</div>
+                <h3>Government</h3>
+                <p>Air-gapped deployment options with NIST compliance for defense and intelligence agencies</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon">💼</div>
+                <h3>Financial Services</h3>
+                <p>Real-time fraud detection and quantum-resistant encryption for transaction security</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon">🌐</div>
+                <h3>MSPs</h3>
+                <p>Multi-tenant architecture for managed service providers protecting multiple clients</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+        <div class="section-header">
+            <h2 class="section-title">Choose Your Security Level</h2>
+            <p class="section-subtitle">Compare our products to find the perfect fit</p>
+        </div>
+
+        <div class="comparison-table">
+            <div class="comparison-header">
+                <div class="comparison-cell">Feature</div>
+                <div class="comparison-cell">IoT Defender</div>
+                <div class="comparison-cell">Quant Plus Module</div>
+                <div class="comparison-cell">Quant Plus Full</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-cell">Encryption Type</div>
+                <div class="comparison-cell">Blockchain</div>
+                <div class="comparison-cell">Hybrid PQC</div>
+                <div class="comparison-cell">Hybrid PQC</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-cell">Autonomous AI</div>
+                <div class="comparison-cell">-</div>
+                <div class="comparison-cell">-</div>
+                <div class="comparison-cell">✓ 10 Agents</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-cell">Threat Detection</div>
+                <div class="comparison-cell">Basic</div>
+                <div class="comparison-cell">-</div>
+                <div class="comparison-cell">Advanced</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-cell">VPN Monitoring</div>
+                <div class="comparison-cell">-</div>
+                <div class="comparison-cell">-</div>
+                <div class="comparison-cell">✓</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-cell">IoT Protection</div>
+                <div class="comparison-cell">✓ Specialized</div>
+                <div class="comparison-cell">Basic</div>
+                <div class="comparison-cell">✓ Advanced</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-cell">Integration</div>
+                <div class="comparison-cell">ARM64 Devices</div>
+                <div class="comparison-cell">Any Workflow</div>
+                <div class="comparison-cell">Standalone</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2 class="cta-title">Ready to Secure Your Enterprise?</h2>
+            <p class="cta-text">Join leading organizations protecting their infrastructure with Quant Plus</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary btn-large">Schedule a Demo</a>
+                <a href="#products" class="btn btn-secondary btn-large">View Pricing</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Our security experts are ready to help</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:andrew@ghost081280.com">andrew@ghost081280.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <div class="contact-details">
+                        <h3>Sales Inquiries</h3>
+                        <p>Enterprise licensing and partnerships</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🔧</div>
+                    <div class="contact-details">
+                        <h3>Technical Support</h3>
+                        <p>24/7 support for existing customers</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select class="form-input" required>
+                        <option value="">Select Product Interest</option>
+                        <option value="iot">IoT Defender</option>
+                        <option value="module">Quant Plus Module</option>
+                        <option value="full">Quant Plus Full System</option>
+                        <option value="all">All Products</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">Quant Plus</h3>
+                <p class="footer-text">Next-generation cybersecurity for the quantum era</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Products</h4>
+                <a href="#products" class="footer-link">IoT Defender</a>
+                <a href="#products" class="footer-link">Quant Plus Module</a>
+                <a href="#products" class="footer-link">Quant Plus Full System</a>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Company</h4>
+                <a href="#" class="footer-link">About Us</a>
+                <a href="#" class="footer-link">Careers</a>
+                <a href="#" class="footer-link">Partners</a>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Resources</h4>
+                <a href="#" class="footer-link">Documentation</a>
+                <a href="#" class="footer-link">Support</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Quant Plus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
